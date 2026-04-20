@@ -1,6 +1,6 @@
 
 
-# 🏢 Data Center Network — Scalable VTP and EtherChannel
+# 🏢 Data Center Network-Scalable VTP and EtherChannel
 
 A Cisco Packet Tracer project demonstrating a scalable data center network using **VTP (VLAN Trunking Protocol)** and **EtherChannel (LACP)** for high availability and simplified VLAN management.
 
@@ -102,13 +102,3 @@ interface fa0/3
 interface fa0/4
  switchport mode access
  switchport access vlan 20
-```
-
-### Expected Output — `show etherchannel summary`
-```
-Group  Port-channel  Protocol    Ports
-------+-------------+-----------+-----------------------------
-1      Po1(SU)       LACP        Fa0/1(P) Fa0/2(P)
-2      Po2(SU)       LACP        Fa0/5(P) Fa0/6(P)
-```
-
